@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>HTML5 Canvas Animated Background Part 1</title>
+  
+  
+  
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+  
+ <button id="back" onclick="goBack()">Go Back</button>
+ 
+<div id="film">
+  <ul>
+      <li><a href="http://zombiesinmyblog.com/wp-content/uploads/2016/06/Indie-Film-Set.jpg"></a></li>
+      <li><a href="http://www.facets.org/children+youth/filmcamp/img/hugo_banner.jpg"></a></li>
+      <li><a href="http://www.hollywoodreportercom/sites/default/files/imagecache/list_landscape_960x541/2016/08/hr_filmschools_01-h_2016.jpg"></a></li>
+  </ul>
+</div>
+<div id="can2">
+  <div id="topcap"></div>
+  <div id="text2">
+    <p class="gold">JALLAD</p>
+    <p class="num">Films</p>
+    <p class="mm">slide show productions</p>
+  </div>
+  <div id="bottomcap"></div>
+</div>
+
+<div id="film2">
+  <ul class="second">
+      <li><a href="https://www.48filmproject.com/photos/gallery/image/48film-project-competion-hour-o.jpg"></a></li>
+      <li><a href="http://www.indiewire.com/wp-content/uploads/2015/10/student-filmmaking.jpg"></a></li>
+      <li><a href="http://www.weareindiehorror.com/wp-content/uploads/2015/12/film-first-step_600x315.jpg"></a></li>
+  </ul>
+</div>
+<div id="can">
+  <div id="topcap"></div>
+  <div id="text">
+    <p class="gold">JALLAD</p>
+    <p class="num">Films</p>
+    <p class="mm">slide show productions</p>
+  </div>
+  <div id="bottomcap"></div>
+</div>
+
+
+        <script src='http://d3js.org/d3.v3.min.js'></script>
+
+  <script src="js/jquery.js"></script>
+  <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+  <script src='http://cdnjs.cloudflare.com/ajax/libs/ocanvas/2.8.1/ocanvas.min.js'></script>
+<script>
+function goBack() {
+    window.history.back();
+}
+</script>
+
+
+  <script src="js/index.js"></script>
+<canvas id="canvas"></canvas>
+</body>
+</html>
